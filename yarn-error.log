@@ -1,0 +1,69 @@
+Arguments: 
+  C:\Users\bosston\AppData\Roaming\nvm\v14.21.3\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\bosston\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\bosston\bin;D:\Dev\jdks\jdk_17_0_8\bin;C:\Program Files\BellSoft\LibericaJDK-11\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\MongoDB\Server\6.0\bin;E:\xampp-php8\php;E:\xampp-php7\php;E:\xampp-php5\php;C:\Program Files\PostgreSQL\14\bin;C:\Users\bosston\AppData\Local\Programs\Python\Python311;C:\Users\bosston\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\composer;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Program Files\PuTTY;D:\02_devTools\stripe;D:\Android\Sdk\emulator;D:\Android\Sdk\platforms;D:\Android\Sdk\platform-tools;D:\Android\Sdk\build-tools;D:\02_devTools\mobile\gradle-7.5.1\bin;C:\Users\bosston\AppData\Local\Programs\Python\Python311\Scripts;C:\apache-maven-3.9.5\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\dotnet;D:\Dev\mobile\flutter\bin;D:\Dev\mobile\gradle-8.2.1\bin;C:\Users\bosston\AppData\Local\Microsoft\WindowsApps;C:\Users\bosston\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\bosston\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.3\bin;C:\Users\bosston\AppData\Roaming\Composer\vendor\bin;C:\Users\bosston\AppData\Local\Yarn\bin;C:\Program Files\mongosh;D:\ffmpeg-master-latest-win64-gpl\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;C:\Users\bosston\.dotnet\tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.21.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\33\EMG112\emg112-apis\package.json: Unexpected token n in JSON at position 460
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "emergency-api",
+    "version": "2.0.0",
+    "description": "Node.js backend of emergency",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js",
+      "test": "jest"
+    },
+    "keywords": [],
+    "author": "codestar",
+    "license": "ISC",
+    "dependencies": {
+      "agora-token": "^2.0.3",
+      "axios": "^1.3.4",
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+      "crypto-js": "^4.1.1",nvm
+      "dotenv": "^8.6.0",
+      "express": "^4.17.1",
+      "express-validator": "^6.5.0",
+      "jsonwebtoken": "^8.5.1",
+      "jwt-decode": "^2.2.0",
+      "mongoose": "^5.9.16",
+      "morgan": "^1.10.0",
+      "multer": "^1.4.5-lts.1",
+      "socket.io": "^4.6.1",
+      "twilio": "^4.14.0"
+    },
+    "devDependencies": {
+      "faker": "^4.1.0",
+      "jest": "^26.0.1",
+      "nodemon": "^2.0.4",
+      "prettier": "^2.0.5",
+      "supertest": "^4.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
